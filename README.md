@@ -1,2 +1,2 @@
 # JavaScript
-Creaye WebSite and Projects Using JS
+Create WebSite and Projects Using JS
