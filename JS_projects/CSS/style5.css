@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+body{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px  10px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav .logo{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: red;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li a:link, nav ul li a:visited{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: red;
+}
+header{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url('https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+section p{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+

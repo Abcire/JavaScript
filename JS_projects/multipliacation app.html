@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Multiplication App</title>
+</head>
+<body id="body">
+    <h4 class="loss">The loss: <span id="nbr_loss">0</span></h4>
+    <h4 class="profit">The profit: <span id="nbr_profit">0</span></h4>
+    <h4></h4>
+    <div class="container">
+        <div class="score" id="score">
+            <p>score:</p>
+            <p class="score_numbrer" id="score_number">0</p>
+        </div>
+        <div class="random_questions">
+            <p>what is 
+                <span class="random_numbre1" id="random_number1">0</span>
+                multiply by 
+                <span class="random_numbre2" id="random_number2">0</span>
+                ?
+            </p>
+        </div>
+        <input class="input_text" type="text" id="answer" placeholder="Enter your answer">
+        <div class="check">
+            <input class="input_submit" type="submit" id="submit" value="Submit" onclick="check_answer()">
+            <i class="bi bi-check-lg" id="true_false"></i>
+            <i class="bi bi-x-lg" id="true_false"></i>
+        </div>
+    </div>
+</body>
+<script src="JS/script2.js"></script>
