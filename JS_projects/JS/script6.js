@@ -1,4 +1,3 @@
-alert("load the page to change the colors");
 const div = document.querySelectorAll(".random_color");
 window.onload = randomColor1();
 // function random_color() {
