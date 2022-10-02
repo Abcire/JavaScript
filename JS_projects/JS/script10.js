@@ -3,6 +3,15 @@ const right = document.getElementById("right");
 const left = document.getElementById("left");
 var num = 0;
 
+setInterval(() => {
+  if (num == 4) {
+    for (let i = 4; i >= 0; i--) {
+      img_slider2();
+    }
+  }
+  img_slider();
+}, 5000);
+
 right.style.opacity = "0.2";
 left.addEventListener("click", img_slider);
 function img_slider() {
