@@ -6,7 +6,6 @@ let count = 1;
 ChackNavbar.style.transform = "rotate(226deg)";
 ChackNavbar.onclick = () => {
     if (count == 0) {
-        count++;
         ChackNavbar.style.transform = "rotate(226deg)"
         for (let i = 0; i < li.length; i++) {
             li[i].style.transform = "translateY(-50px)";
@@ -18,9 +17,11 @@ ChackNavbar.onclick = () => {
             ul.style.bottom = 27.5 + "px";
         }, 1000)
 
+        count++;
+
+
     }
     else {
-        count--;
         ChackNavbar.style.transform = "rotate(0deg)"
         ul.style.bottom = 0 + "px";
         setTimeout(() => {
@@ -31,6 +32,9 @@ ChackNavbar.onclick = () => {
                 li[i].style.transform = "translateY(0px)";
             }, 1000)
         }
+
+        count--;
+
     }
 
 }
